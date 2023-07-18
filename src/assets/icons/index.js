@@ -6,6 +6,7 @@ import {
   FaSnapchat,
   FaPinterest,
 } from "react-icons/fa";
+
 export {
   FaHeart,
   FaTwitter,
