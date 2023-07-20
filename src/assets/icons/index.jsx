@@ -5,6 +5,7 @@ import {
   FaFacebook,
   FaSnapchat,
   FaPinterest,
+  FaSearch,
 } from "react-icons/fa";
 
 export {
@@ -13,5 +14,6 @@ export {
   FaLinkedinIn,
   FaFacebook,
   FaSnapchat,
+  FaSearch,
   FaPinterest,
 };
