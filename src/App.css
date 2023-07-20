@@ -17,7 +17,11 @@ p,
   ---text: #000;
   --titlefont: "Segoe UI", Arial, sans-serif;
   --parafont: "Lato", sans-serif;
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --red-color: #f44336;
 }
+
 h1,
 h2,
 h3,
