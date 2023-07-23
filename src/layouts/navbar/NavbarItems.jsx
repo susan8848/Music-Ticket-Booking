@@ -1,5 +1,6 @@
 export const NavbarItems = [
   "HOME",
+
   "BAND",
   "TOUR",
   "CONTACT",

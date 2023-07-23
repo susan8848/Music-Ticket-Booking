@@ -1,12 +1,12 @@
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #000000;
+  background-color: var(--primary-color);
   padding: 10px 0;
   justify-content: space-between;
 }
 
-.navbar ul {
+.navbar li {
   list-style: none;
 }
 
@@ -17,22 +17,22 @@
 
 .navbar a {
   text-decoration: none;
+  text-transform: uppercase;
   font-family: var(--titlefont);
   padding: 8px 16px;
-  color: #eee;
+  color: var(--secondary-color);
 }
 
 .navbar a:hover {
-  background-color: #f9f3f3;
-  color: #000000;
+  background-color: var(--hover-color);
+  color: var(--primary-color);
 }
 
 .navbar .active {
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 
 .search-icon {
-  color: white;
+  color: var(--secondary-color);
   margin-right: 25px;
 }
-
