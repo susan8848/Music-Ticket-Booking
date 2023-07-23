@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--titlefont);
+  padding: 8px 16px;
+  color: var(--secondary-color);
+}
+
+.navbar a:hover {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+}
+
+.navbar .active {
+  background-color: var(--secondary-color);
+}
+
+.search-icon {
+  color: var(--secondary-color);
+  margin-right: 25px;
+}

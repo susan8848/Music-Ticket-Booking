@@ -9,44 +9,44 @@ p,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: azure;
 }
 
-#root {
-  max-width: 1280px;
+:root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  ---text: #000;
+  --titlefont: "Segoe UI", Arial, sans-serif;
+  --parafont: "Lato", sans-serif;
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --red-color: #f44336;
+  --hover-color: #f9f3f3;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
 }
 h1 {
   font-size: 30px !important;
   letter-spacing: 4px;
   margin: 10px 0;
-  color: var(---text);
+  color: var(--primary-color);
 }
 p {
-  font-family: "Lato", sans-serif;
   font-size: 15px;
-  color: var(---text);
+  color: var(--primary-color);
 
   margin: 15px 0;
 }
 
 .icon {
-  color: black;
+  color: var(--primary-color);
 }
 
 stroke-icon {
   width: 10px;
 }
-
