@@ -1,13 +1,13 @@
 import "./App.css";
-import MusicSlider from "./components/Carousel";
+import MusicSlider from "./components/Carousel/slide";
 import Navbar from "./layouts/navbar/index";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <MusicSlider />
-    </div>
+    </>
   );
 }
 
