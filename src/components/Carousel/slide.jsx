@@ -26,9 +26,32 @@ const MusicSlider = () => {
     },
   ];
 
+  const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 7000,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+  };
+
   return (
     <div className="music-slider">
-      <Carousel slides={slides} />
+      <Carousel settings={settings}>
+        {slides.map((slide, index) => (
+          <div key={index} className="slider-image">
+            <img src={slide.imageSrc} className="music-img" alt="Example" />
+            <div className="slider-content">
+              <h3>{slide.title}</h3>
+              <p>
+                <b>{slide.description}</b>
+              </p>
+            </div>
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 };
