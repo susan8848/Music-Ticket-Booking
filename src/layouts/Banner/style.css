@@ -1,0 +1,30 @@
+.band {
+  padding: var(--sectionpadding);
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.band-img {
+  height: 300px;
+  width: 265px;
+  margin: 0 50px;
+  border-radius: 10px;
+}
+
+.band-content h3 {
+  font-family: var(--titlefont);
+  letter-spacing: 4px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.band-content p {
+  font-family: var(--parafont);
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.images-music {
+  margin-top: 50px;
+}
+
