@@ -13,7 +13,7 @@ const bands = () => {
       description:
         "Lorem ipsum dolor sit amet conum dolor sit amet consectetur adipisicium dolor sit amet consectetur adipisicing elit. Deserunt vero tenetur sapiente aut pariatur invenng elit. Deserunt vero tenetur sapiente aut pariatur invensectetur adipium dolor sit amet consectetur adipisicing elit. Deserunt vero tenetur sapiente aut pariatur invensicing elit. Deserunt vero teum dolor sit amet cum dolor sit amet consectetur adipisicing elit. Deserunt vero tenetur sapiente aut pariatur invenonsectetur adipisicing elit. Deserunt vero tenetur sapiente aut pariatur invennetur sapiente aut pariatur inventore, blanditiis labore eos beatae dolor esse, impedit ullam recusandae, libero mollitia. Nobis quis perferendis perspiciatis.,",
       images: [aImage, bImage, cImage],
-      headings: ["XYZ, ABC, SDE"],
+      headings: ["XYZ", "ABC", "SDE"],
     },
   ];
 
@@ -28,21 +28,16 @@ const bands = () => {
               <p>{band.description}</p>
             </div>
             <div className="images-music">
-              {/* {band.heading.map((heading, headingIndex) => (
-                <h3
-                  key={headingIndex}
-                  src={heading}
-                  className="band-title"
-                  alt={`Heading ${headingIndex + 1}`}
-                />
-              ))} */}
               {band.images.map((image, imgIndex) => (
-                <img
-                  key={imgIndex}
-                  src={image}
-                  className="band-img"
-                  alt={`Example ${imgIndex + 1}`}
-                />
+                <div key={imgIndex}>
+                  <h3>{band.headings[imgIndex]}</h3>
+                  <img
+                    key={imgIndex}
+                    src={image}
+                    className="band-img"
+                    alt={`Example ${imgIndex + 1}`}
+                  />
+                </div>
               ))}
             </div>
           </div>

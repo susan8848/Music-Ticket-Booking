@@ -1,13 +1,13 @@
 .band {
   padding: var(--sectionpadding);
-  max-width: 1150px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .band-img {
   height: 300px;
   width: 265px;
-  margin: 0 50px;
+  margin: 15px 50px 0;
   border-radius: 10px;
 }
 
@@ -26,5 +26,7 @@
 
 .images-music {
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
