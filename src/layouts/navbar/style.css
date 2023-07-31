@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 0;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: var(--titlefont);
+  padding: 8px 16px;
+  color: #eee;
+}
+
+.navbar a:hover {
+  background-color: #f9f3f3;
+  color: #000000;
+}
+
+.navbar .active {
+  background-color: #fff;
+}
+
+.search-icon {
+  color: white;
+  margin-right: 25px;
+}
+
